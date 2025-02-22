@@ -23,7 +23,7 @@ import styled from "styled-components";
     border-radius: 1.5rem;
     padding: 0px 5%;
     background-color: #182215;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.568);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.767);
     z-index: 10;
 `
 
@@ -64,8 +64,8 @@ export default function Navbar(){
                     <List>
                         <li><a href="#home">Início</a></li>
                         <li><a href="#history">Nossa história</a></li>
-                        <li><a href="#">Beneficios</a></li>
-                        <li><a href="#">Depoimentos</a></li>
+                        <li><a href="#benefits">Beneficios</a></li>
+                        <li><a href="#depoiments">Depoimentos</a></li>
                         <li><a href="#">Contato</a></li>
                     </List>
                 </div>

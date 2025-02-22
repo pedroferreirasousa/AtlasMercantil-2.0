@@ -4,6 +4,9 @@ import GlobalStyles from './styles/globalStyles'
 import Navbar from './components/header'
 import Home from './components/home'
 import History from './components/history'
+import Benefits from './components/benefits'
+import Depoiments from './components/depoiments'
+import Contact from './components/contact'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,5 +14,8 @@ createRoot(document.getElementById('root')).render(
       <Navbar />
       <Home />
       <History /> 
+      <Benefits/>
+      <Depoiments/>
+      <Contact/>
   </StrictMode>,
 )

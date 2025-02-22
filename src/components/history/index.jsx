@@ -1,5 +1,6 @@
 
 import styled from "styled-components";
+import 'animate.css';
 
 const SectionContent = styled.section`
         position: relative;
@@ -22,14 +23,12 @@ const WrapperHistory = styled.div`
 const InsideWrapperContainer = styled.div`
     display:flex;
     justify-content:space-around;
-    background-color: red;
     height: 50%;
     gap: 20px;
     flex-wrap: wrap-reverse;
 `
 
 const LeftContainer = styled.div`
-    background-color:green;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -45,11 +44,10 @@ font-size: 2rem;
 
 const TextLeft = styled.p`
     font-size: 1.2rem;
-    max-width: 1000px
+    max-width: 1000px;
 `
 
 const RightContainer = styled.div`
-    background-color:blue;
     display:flex;
     align-items:center;
 
@@ -59,7 +57,27 @@ const ImageHistory = styled.img`
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 40px;
+    box-shadow: 16px 16px 6px #47643e;
 `
+
+const InovationContainer = styled.div`
+    margin-top: 5%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+`
+
+const TextInovation = styled.p`
+        font-size: 1.2rem;
+        max-width: 1000px;
+        padding: 25px 40px;
+        background-color: #47643e6f;
+        margin-top: 30px;
+        border-radius: 1rem;
+`
+
 
 export default function History(){
     return(
@@ -75,8 +93,11 @@ export default function History(){
                     <RightContainer>
                         <ImageHistory src="../../../public/images/images-history/imagem-history.png"/>
                     </RightContainer>
-
                 </InsideWrapperContainer>
+                <InovationContainer>
+                    <TitleLeft>Inovação e Eficiência no Campo</TitleLeft>
+                    <TextInovation>Na AtlasMercantil, oferecemos soluções agrícolas inteligentes e sustentáveis, focadas em transformar os desafios do campo em oportunidades de crescimento. Com tecnologias de ponta, produtos de alta qualidade e um time especializado, garantimos que seus cultivos alcancem o máximo de produtividade e rentabilidade. Confira os benefícios que nossas soluções proporcionam:</TextInovation>
+                </InovationContainer>
             </WrapperHistory>
         </SectionContent>
     )
