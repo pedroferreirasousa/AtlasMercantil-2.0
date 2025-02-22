@@ -94,30 +94,30 @@ export default function Benefits(){
                 <ContainerBenefits>
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="../../../public/images/images-benefits/benefit-1.png"></BenefitImageLeft>
+                        <BenefitImageLeft src="/public/images/images-benefits/benefit-1.png"></BenefitImageLeft>
                         <BenefitText>Aumento da Produtividade: Nossa tecnologia avançada ajuda a otimizar o uso de recursos e a melhorar o desempenho das culturas, maximizando os resultados e garantindo colheitas mais eficientes. </BenefitText>
                     </BenefitRightText>
 
                     <BenefitLeftText>                        
                         <BenefitText>Sustentabilidade: Priorizamos práticas agrícolas sustentáveis que minimizam o impacto ambiental, promovendo a saúde do solo e a preservação dos recursos naturais.</BenefitText>
-                        <BefefitImageRight src="../../../public/images/images-benefits/benefit-2.png"></BefefitImageRight>
+                        <BefefitImageRight src="/public/images/images-benefits/benefit-2.png"></BefefitImageRight>
                     </BenefitLeftText>
 
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="../../../public/images/images-benefits/benefit-3.png"></BenefitImageLeft>
+                        <BenefitImageLeft src="/public/images/images-benefits/benefit-3.png"></BenefitImageLeft>
                         <BenefitText>Aumento da Produtividade: Nossa tecnologia avançada ajuda a otimizar o uso de recursos e a melhorar o desempenho das culturas, maximizando os resultados e garantindo colheitas mais eficientes. </BenefitText>
                     </BenefitRightText>
 
                     
                     <BenefitLeftText>                        
                         <BenefitText>Sustentabilidade: Priorizamos práticas agrícolas sustentáveis que minimizam o impacto ambiental, promovendo a saúde do solo e a preservação dos recursos naturais.</BenefitText>
-                        <BefefitImageRight src="../../../public/images/images-benefits/benefit-4.png"></BefefitImageRight>
+                        <BefefitImageRight src="/public/images/images-benefits/benefit-4.png"></BefefitImageRight>
                     </BenefitLeftText>
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="../../../public/images/images-benefits/benefit-5.png"></BenefitImageLeft>
-                        <BenefitText>Aumento da Produtividade: Nossa tecnologia avançada ajuda a otimizar o uso de recursos e a melhorar o desempenho das culturas, maximizando os resultados e garantindo colheitas mais eficientes. </BenefitText>
+                        <BenefitImageLeft src="/public/images/images-benefits/benefit-5.png"></BenefitImageLeft>
+                        <BenefitText>npm</BenefitText>
                     </BenefitRightText>
 
 
