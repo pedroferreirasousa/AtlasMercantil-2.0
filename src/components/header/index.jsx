@@ -58,7 +58,7 @@ export default function Navbar(){
         <Header>
             <Nav>
                 <div>
-                    <Logo src="public/images/logo-AtlasMercantil.png" alt="" />
+                    <Logo src="/images/logo-AtlasMercantil.png" alt="" />
                 </div>
                 <div>
                     <List>

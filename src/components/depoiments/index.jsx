@@ -82,21 +82,21 @@ export default function Depoiments(){
                     </TitleContainer>
                     <DepoimentsContainer draggable="true">
                         <Depoiment>
-                            <DepoimentImage src="./public/images/images-depoiment/depoiment-profile-1.png"></DepoimentImage>
+                            <DepoimentImage src="/images/images-depoiment/depoiment-profile-1.png"></DepoimentImage>
                             <DepoimentText>A AtlasMercantil transformou a produtividade da nossa fazenda. Graças às soluções inovadoras, conseguimos aumentar nossa colheita de maneira eficiente e sustentável. A equipe técnica nos apoiou em cada etapa, tornando nossa operação mais rentável e consciente ambientalmente. </DepoimentText>
                             <DepoimentPeople>João Pereira, Proprietário da Fazenda Boa Vista</DepoimentPeople>
                         </Depoiment>
 
 
                         <Depoiment>
-                            <DepoimentImage src="./public/images/images-depoiment/depoiment-profile-2.png"></DepoimentImage>
+                            <DepoimentImage src="/images/images-depoiment/depoiment-profile-2.png"></DepoimentImage>
                             <DepoimentText> A AtlasMercantil transformou a produtividade da nossa fazenda. Graças às soluções inovadoras, conseguimos aumentar nossa colheita de maneira eficiente e sustentável. A equipe técnica nos apoiou em cada etapa, tornando nossa operação mais rentável e consciente ambientalmente. </DepoimentText>
                             <DepoimentPeople>Maria Souza, Gerente de Produção na AgroSul</DepoimentPeople>
                         </Depoiment>
 
 
                         <Depoiment>
-                            <DepoimentImage src="./public/images/images-depoiment/depoiment-profile-3.png"></DepoimentImage>
+                            <DepoimentImage src="/images/images-depoiment/depoiment-profile-3.png"></DepoimentImage>
                             <DepoimentText> A parceria com a estabelecida com a Atlas foi fundamental para alcançar nossos objetivos. Além de melhorarmos nossos resultados financeiros, agora podemos praticar uma agricultura mais sustentável, o que é essencial para o futuro da nossa fazenda. </DepoimentText>
                             <DepoimentPeople>Carlos Mendes, Diretor da AgriTech Solutions</DepoimentPeople>
                         </Depoiment>
