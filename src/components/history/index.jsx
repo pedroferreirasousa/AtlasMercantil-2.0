@@ -91,7 +91,7 @@ export default function History(){
                                 Nosso compromisso é adaptar cada solução às necessidades específicas de cada cliente, proporcionando resultados concretos e melhorando a qualidade de vida no campo. Estamos presentes em diversas regiões do Brasil, levando inovação e resultados para o agronegócio.</TextLeft>
                     </LeftContainer>
                     <RightContainer>
-                        <ImageHistory src="../../../public/images/images-history/imagem-history.png"/>
+                        <ImageHistory src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-history/imagem-history.png"/>
                     </RightContainer>
                 </InsideWrapperContainer>
                 <InovationContainer>

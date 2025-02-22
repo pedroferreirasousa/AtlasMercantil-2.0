@@ -72,7 +72,7 @@ const BtnContato = styled.a`
 export default function Home(){
     return   (
         <Section id="home">
-            <img src="../../../public/images/Background AtlasMercantil.jpg" alt="Imagem de background" />
+            <img src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/Background AtlasMercantil.jpg" alt="Imagem de background" />
             <Wrapper>
             <TitleDiv>
                 <TitleH1>Potencialize sua produção <br /> com nossas soluções agrícolas.</TitleH1>

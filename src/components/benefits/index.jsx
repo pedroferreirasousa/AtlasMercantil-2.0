@@ -94,13 +94,13 @@ export default function Benefits(){
                 <ContainerBenefits>
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="/images/images-benefits/benefit-1.png"></BenefitImageLeft>
+                        <BenefitImageLeft src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-benefits/benefit-1.png"></BenefitImageLeft>
                         <BenefitText>Aumento da Produtividade: Nossa tecnologia avançada ajuda a otimizar o uso de recursos e a melhorar o desempenho das culturas, maximizando os resultados e garantindo colheitas mais eficientes. </BenefitText>
                     </BenefitRightText>
 
                     <BenefitLeftText>                        
                         <BenefitText>Sustentabilidade: Priorizamos práticas agrícolas sustentáveis que minimizam o impacto ambiental, promovendo a saúde do solo e a preservação dos recursos naturais.</BenefitText>
-                        <BefefitImageRight src="/images/images-benefits/benefit-2.png"></BefefitImageRight>
+                        <BefefitImageRight src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-benefits/benefit-2.png"></BefefitImageRight>
                     </BenefitLeftText>
 
 
@@ -112,11 +112,11 @@ export default function Benefits(){
                     
                     <BenefitLeftText>                        
                         <BenefitText>Sustentabilidade: Priorizamos práticas agrícolas sustentáveis que minimizam o impacto ambiental, promovendo a saúde do solo e a preservação dos recursos naturais.</BenefitText>
-                        <BefefitImageRight src="public/images/images-benefits/benefit-4.png"></BefefitImageRight>
+                        <BefefitImageRight src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-benefits/benefit-4.png"></BefefitImageRight>
                     </BenefitLeftText>
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="public/images/images-benefits/benefit-5.png"></BenefitImageLeft>
+                        <BenefitImageLeft src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-benefits/benefit-5.png"></BenefitImageLeft>
                         <BenefitText>Suporte Especializado: Contamos com uma equipe técnica pronta para fornecer suporte contínuo e consultoria personalizada, ajudando a resolver desafios específicos e garantir o sucesso do seu negócio.</BenefitText>
                     </BenefitRightText>
 
