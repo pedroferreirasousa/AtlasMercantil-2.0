@@ -57,6 +57,10 @@ const Depoiment = styled.div`
   flex-shrink: 0;
   scroll-snap-align: start; 
   justify-content: center;
+
+    &:hover{
+        scale: 1.05;
+  }
 `
 
 const DepoimentImage = styled.img`

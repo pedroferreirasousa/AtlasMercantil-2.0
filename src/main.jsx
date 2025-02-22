@@ -7,6 +7,7 @@ import History from './components/history'
 import Benefits from './components/benefits'
 import Depoiments from './components/depoiments'
 import Contact from './components/contact'
+import Footer from './components/footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -17,5 +18,6 @@ createRoot(document.getElementById('root')).render(
       <Benefits/>
       <Depoiments/>
       <Contact/>
+      <Footer/>
   </StrictMode>,
 )

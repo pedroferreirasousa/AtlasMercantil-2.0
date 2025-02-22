@@ -66,7 +66,7 @@ export default function Navbar(){
                         <li><a href="#history">Nossa história</a></li>
                         <li><a href="#benefits">Beneficios</a></li>
                         <li><a href="#depoiments">Depoimentos</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#contact">Contato</a></li>
                     </List>
                 </div>
             </Nav>

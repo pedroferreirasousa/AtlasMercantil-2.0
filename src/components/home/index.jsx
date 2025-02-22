@@ -77,7 +77,7 @@ export default function Home(){
             <TitleDiv>
                 <TitleH1>Potencialize sua produção <br /> com nossas soluções agrícolas.</TitleH1>
                 <SubTitle>Conectando Oportunidades no Mercado de Grãos</SubTitle>
-                <BtnContato href="#">ENTRAR EM CONTATO</BtnContato> 
+                <BtnContato href="http://wa.me/5534992981863?text=Olá, Estou entrando em contato e gostaria de marcar uma reunião e falar sobre Soluções Agrícola para meu negocio.">ENTRAR EM CONTATO</BtnContato> 
             </TitleDiv>
             </Wrapper>
         </Section>

@@ -105,7 +105,7 @@ export default function Benefits(){
 
 
                     <BenefitRightText>
-                        <BenefitImageLeft src="public/images/images-benefits/benefit-3.png"></BenefitImageLeft>
+                        <BenefitImageLeft src="https://pedroferreirasousa.github.io/AtlasMercantil-2.0/images/images-benefits/benefit-3.png"></BenefitImageLeft>
                         <BenefitText>Aumento da Produtividade: Nossa tecnologia avançada ajuda a otimizar o uso de recursos e a melhorar o desempenho das culturas, maximizando os resultados e garantindo colheitas mais eficientes. </BenefitText>
                     </BenefitRightText>
 
