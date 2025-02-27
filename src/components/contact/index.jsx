@@ -12,11 +12,9 @@ const SectionContact = styled.section`
 const WrapperContact = styled.div`
   width: 95%;
   max-width: 1500px;
-  height: 60%;
-  margin-top: 10vh;
-  position: relative;
-  border-radius: 2rem;
-  padding: 20px 40px;
+  height: 70%;
+  margin-top: 0px;
+  position: relative;   
   display: flex;
   flex-direction: column;
   align-items: center;
