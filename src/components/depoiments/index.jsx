@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 const SectionDepoiments = styled.section`
     height: auto;
+    min-height: 100vh;
     background-color: #000000f9;
+    width: 100%;
 `
 
 const WrapperDepoiments = styled.div`
@@ -27,13 +29,10 @@ const TitleDepoiments = styled.h2`
 `
 
 const DepoimentsContainer = styled.div`
-    padding: 5vh 20px;
     margin-top: 5vh;
     display: flex;
-    overflow-x: auto;
-    overflow-y: hidden;
     position: relative;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     flex-wrap: wrap;
     gap: 20px;
@@ -43,8 +42,7 @@ const DepoimentsContainer = styled.div`
 
 
 const Depoiment = styled.div`
-  min-width: 300px;
-  max-width: 300px;
+    width: 280px;
   padding: 20px;
   margin: 0 10px;
   background-color: #d1d0d0;
@@ -67,6 +65,7 @@ const DepoimentImage = styled.img`
     width:125px;
     height: auto;
     border-radius: 4rem;
+    object-fit: cover;
 `
 const DepoimentText = styled.p`
     padding-top: 20px;

@@ -4,7 +4,7 @@ const Section = styled.section`
 
     height: 100vh;
     min-height: 100vh;
-    background-color: black;
+    background-color: #000000;
     display:flex;
 
     img{

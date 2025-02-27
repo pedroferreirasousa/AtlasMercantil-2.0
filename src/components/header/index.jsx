@@ -11,6 +11,10 @@ import styled from "styled-components";
     justify-content: center;
     position: fixed;
     z-index: 10;
+
+    @media (max-width: 790px){
+        display:none;
+    }
 `
 
  const Nav = styled.nav`

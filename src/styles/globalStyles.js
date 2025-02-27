@@ -1,9 +1,18 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
   
+  :root{
+    --font-size-texto: clamp(0.875rem, 0.7679rem + 0.5357vw, 1.25rem);
+    --font-size-titulo: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
+    --font-family-titulo: "Poppins", serif;
+    --color-darkGreen: #182215;
+  
+
+  }
+
     /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -96,7 +105,6 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: "Roboto", serif;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -144,7 +152,15 @@ table {
 
 /* fim do reset */
 
-`
+html,body{
+  width:100vw;
+  min-width: 320px;
+  height: auto;
+  min-height: 100vh;
+  font-family: "Roboto", serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+`;
 
-export default GlobalStyles
-
+export default GlobalStyles;

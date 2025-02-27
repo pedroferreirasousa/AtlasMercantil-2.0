@@ -27,6 +27,14 @@ const TitleBenefit = styled.h2`
     font-weight: 700;
     text-shadow: 1px 1px 1px #000000c7;
     letter-spacing: 1px;
+
+    @media (max-width: 1040px){
+        font-size: 1.3rem;
+    }
+
+    @media (max-width: 744px){
+        font-size: 1.1rem;
+    }
 `
 
 const ContainerBenefits = styled.div`
@@ -43,42 +51,66 @@ const ContainerBenefits = styled.div`
 
 const BenefitRightText = styled.div`
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items:center;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap;
     text-align:left;
+
+    @media (max-width: 1133px){
+        text-align: center;
+    }
+
 `
 const BenefitLeftText = styled.div`
     display: flex;
-    gap: 20px;
+    gap: 50px;
     align-items:center;
     width: 100%;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
     text-align: right;
+
+    @media (max-width: 777px){
+        text-align: center;
+    }
 `
 
 const BenefitText = styled.h3`
-    max-width: 600px;
-    font-size: 1.5rem;
+    width: 50%;
+    min-width: 280px;
+    line-height: 1.2;
+    font-size: clamp(0.875rem, 0.6964rem + 0.8929vw, 1.5rem);
     color: #dedede;
-    text-shadow: 0px 0px 5px #df9f15;
+
 `
 
 const BenefitImageLeft = styled.img`
-    width: 400px;
+    width: 30%;
+    min-width: 300px;
     height: auto;
-    box-shadow: 0px 0px 15px #df9f15;
+    box-shadow: -16px 16px 6px #df9f15;
     border-radius: 40px;
+
+    
+    @media (max-width: 777px){
+        box-shadow: 0px 0px 10px #df9f15;
+    }
+
 `
 
 const BefefitImageRight = styled.img`
-    width: 400px;
+    width: 30%;
+    min-width: 300px;
     height: auto;
-    box-shadow: 0px 0px 10px #df9f15;
+    box-shadow: 16px 16px 6px #df9f15;
     border-radius: 40px;
+
+    @media (max-width: 777px){
+        box-shadow: 0px 0px 10px #df9f15;
+    }
+
 `
 
 
