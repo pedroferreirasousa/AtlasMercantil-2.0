@@ -22,7 +22,7 @@ const FooterInfo = styled.p`
 export default function Footer(){
     return(
         <SectionFooter>
-            <FooterInfo>Copyright © 2025 AtlasMercantil. Todos os direitos reservados.  <br />   Desenvolvido por <a href="#">Pedro Ferreira</a></FooterInfo>
+            <FooterInfo>Copyright © 2025 AtlasMercantil. Todos os direitos reservados.  <br />   Desenvolvido por <a target="_blank" href="https://www.linkedin.com/in/pedro-ferreira-936b3624a/">Pedro Ferreira</a></FooterInfo>
         </SectionFooter>
     )
 }

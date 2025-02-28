@@ -56,6 +56,7 @@ const TitleLeft = styled.h2`
   font-family: var(--font-family-titulo);
   font-weight: 600;
   color: var(--color-darkGreen);
+  text-align: center;
 `;
 
 const TextLeft = styled.p`

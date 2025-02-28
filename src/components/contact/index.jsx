@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import wpp from "../../../public/images/whatsapp.svg"
 
 const SectionContact = styled.section`
   height: 90vh;
@@ -14,7 +15,7 @@ const WrapperContact = styled.div`
   max-width: 1500px;
   height: 70%;
   margin-top: 0px;
-  position: relative;   
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,12 +81,28 @@ const NumberContact = styled.p`
 
 const ButtonContact = styled.a`
   cursor: pointer;
-  padding: 15px 60px;
+  padding: 10px 0px;
   border: 1px solid #df9f15;
   font-size: var(--font-size-texto);
   border-radius: 10px;
   color: #dedede;
   text-decoration: none;
+  width: 280px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 2px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-direction: row-reverse;
+  margin-top: 16px;
+
+  img{
+    width: 24px;
+    height: auto;
+  }
 
   &:hover {
     scale: 0.9;
@@ -111,8 +128,8 @@ export default function Contact() {
           <DivContacts>
             <EmailContact>E-mail: contato@atlasmercantil.com</EmailContact>
             <NumberContact>Telefone: 34 99298-1963</NumberContact>
-            <ButtonContact href="http://wa.me/5534992981863?text=Olá, Estou entrando em contato e gostaria de marcar uma reunião e falar sobre Soluções Agrícola para meu negocio.">
-              Entrar em contato via whatsApp
+            <ButtonContact target="_blank" href="http://wa.me/5534992981863?text=Olá, Estou entrando em contato e gostaria de marcar uma reunião e falar sobre Soluções Agrícola para meu negocio.">
+              WhatsApp <img src={wpp} alt="logo whatsapp" />
             </ButtonContact>
           </DivContacts>
         </DivContactBottom>

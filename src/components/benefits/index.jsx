@@ -170,7 +170,6 @@ const BenefitImageRight = styled.img`
 `;
 
 export default function Benefits() {
-  // Configuração para animar cada elemento quando ele estiver visível
   const { ref: textRef1, inView: textInView1 } = useInView({
     triggerOnce: true,
     threshold: 0.1,

@@ -1,5 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import  { useState } from "react";
+
+// Keyframe 
+const MobileOpen = keyframes`
+     from {
+        top: -100%;
+        opacity: 0;
+        height: 0;
+    }
+    to {
+        top: 0;
+        opacity: 1;
+        height: 100vh;
+    }
+`
 
 const Header = styled.header`
   width: 90%;
@@ -46,8 +60,9 @@ const IconMenu = styled.div`
     height: 5px;
     background-color: #ffffff;
     border-radius: 5px;
-    transition: 0.6s;
+    transition: 200ms;
   }
+
 
   &.open div:nth-child(1) {
     transform: rotate(45deg);
@@ -57,7 +72,10 @@ const IconMenu = styled.div`
   }
 
   &.open div:nth-child(2) {
-    opacity: 0;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -5px;
+    opacity: 0 ;
   }
 
   &.open div:nth-child(3) {
@@ -69,18 +87,33 @@ const IconMenu = styled.div`
 `;
 
 const MenuList = styled.ul`
-  display: flex;
+  display: ${({ isOpen }) => (isOpen ? "flex" : "none")};
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #182215;
   position: absolute;
-  top: 10vh;
+  top: 0;
   right: 0;
   width: 100vw;
+  gap: 40px;
   border-radius: 8px;
-  height: ${({ isOpen }) => (isOpen ? "100vh" : "0")}; 
-  opacity: ${({ isOpen }) => (isOpen ? "1" : "0")};
-  transition: opacity 0.5s ease, height 0.5s ease; 
+  height: 100vh;
+  /* height: ${({ isOpen }) => (isOpen ? "100vh" : "0")};  */
+  /* opacity: ${({ isOpen }) => (isOpen ? "1" : "0")}; */
+  transition: opacity 0.5s ease, height 0.5s ease;
+  z-index: -1;
+  animation: ${MobileOpen} 400ms ease-in-out;
+
+
+
+  /* @keyframe MenuOpen {
+    from {
+        transform: translateY (-100%)
+    }
+    to {
+        transform: translateY (0%)
+    }
+  } */
 `;
 
 const MenuItem = styled.li`

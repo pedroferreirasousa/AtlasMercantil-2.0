@@ -18,6 +18,19 @@ const GlobalStyles = createGlobalStyle`
    License: none (public domain)
 */
 
+body::-webkit-scrollbar{
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+  background-color: #182215;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #df9f15;
+  border-radius: 40px;
+}
+
 html,
 body,
 div,

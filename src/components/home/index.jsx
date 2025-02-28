@@ -53,13 +53,19 @@ const SubTitle = styled.h2`
 `
 
 const BtnContato = styled.a`
-    padding: 15px 60px;
+    padding: 10px 0px;
     border: 1px solid #df9f15;
     border-radius: 10px;
     color: #dedede;
     cursor: pointer;
     margin-top: 20px;
     text-decoration: none;
+    height: 36px;
+    width: 280px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover{
         scale: 0.9;
@@ -77,7 +83,7 @@ export default function Home(){
             <TitleDiv>
                 <TitleH1>Potencialize sua produção <br /> com nossas soluções agrícolas.</TitleH1>
                 <SubTitle>Conectando Oportunidades no Mercado de Grãos</SubTitle>
-                <BtnContato href="http://wa.me/5534992981863?text=Olá, Estou entrando em contato e gostaria de marcar uma reunião e falar sobre Soluções Agrícola para meu negocio.">ENTRAR EM CONTATO</BtnContato> 
+                <BtnContato href="#contact">AGENDE UM ORÇAMENTO</BtnContato> 
             </TitleDiv>
             </Wrapper>
         </Section>
