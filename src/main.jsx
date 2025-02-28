@@ -8,9 +8,11 @@ import Benefits from './components/benefits'
 import Depoiments from './components/depoiments'
 import Contact from './components/contact'
 import Footer from './components/footer'
+import MobileMenu from './components/mobile-menu'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <MobileMenu/>
     <GlobalStyles/>    
       <Navbar />
       <Home />
