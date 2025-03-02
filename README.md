@@ -1,8 +1,6 @@
 <h1 align="center">AtlasMercantil - LaddingPage </h1>
 
-## Descrição do projeto
-
-<p align="center">Projeto de Ladding Page para AtlasMercantil.</p>
+<p align="center">Projeto de Ladding Page para AtlasMercantil fornecendo soluçoes agrícolas.</p>
 
 ### 🌐 Deploy
 https://pedroferreirasousa.github.io/AtlasMercantil-2.0/
