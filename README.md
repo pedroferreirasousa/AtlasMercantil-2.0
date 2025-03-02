@@ -5,9 +5,9 @@
 ### 🌐 Deploy
 https://pedroferreirasousa.github.io/AtlasMercantil-2.0/
 
-### Ferramentas
+### ⚒️ Ferramentas
 <div>
-<p align="center">React.js & Styled Components
+<p>React.js & Styled Components
 </div>
 
 
