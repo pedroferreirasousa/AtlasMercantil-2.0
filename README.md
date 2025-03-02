@@ -1,8 +1,19 @@
-# React + Vite
+<h1 align="center">AtlasMercantil - LaddingPage </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do projeto
 
-Currently, two official plugins are available:
+<p align="center">Projeto de Ladding Page para AtlasMercantil.</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🌐 Deploy
+https://pedroferreirasousa.github.io/AtlasMercantil-2.0/
+
+### Ferramentas
+<div>
+<p align="center">React.js & Styled Components
+</div>
+
+
+
+<h1 align="center"> 
+	 🚀 Projeto concluído com sucesso... 🚀
+</h1>
